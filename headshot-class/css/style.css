@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inconsolata&display=swap');
+
+body {
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav {
+    padding: 10px 10px 15px 30px;
+    background-image: linear-gradient(135deg, #ff96e0 0, #ff8fde 12.5%, #ff86d8 25%, #e77dcf 37.5%, #c772c1 50%, #a867b1 62.5%, #8c5da3 75%, #745595 87.5%, #5f4e89 100%);
+}
+
+/*Logotipo que está dentro do nav*/
+nav img {
+    display: inline-block;
+}
+
+/*parametrização dos links do nav*/
+nav a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 0 0 7px rgb(255, 123, 211), 0 0 10px rgb(255, 99, 234);
+
+}
+
+/*parametrização do h1 do nav*/
+nav h1 {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+nav ol {
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+    padding: 0px;
+
+}
+
+nav ol li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+main {
+    margin: 30px;
+}
+
+article h1 {
+    color: #000000;
+    font-size: 45px;
+    text-transform: capitalize;
+    /*A propriedade text-transform especifica como capitalizar um texto de um elemento. Pode ser usado para que o texto apareça com todas as letras maiúsculas ou todas minúsculas, ou com cada palavra em maiúscula.*/
+    font-weight: bolder;
+
+}
+
+article p {
+    text-align: justify;
+    text-indent: 2.5cm;
+    word-spacing: 5px;
+    line-height: 1.4;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {
+    border: 3px solid #fcdbff;
+    box-shadow: 5px 5px 10px #000000;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    transition: all .2s linear;
+    /*Deixar as divs lado a lado*/
+}
+
+div:hover {
+    transform: scale(105%);
+}
+
+#div-um {
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(/headshot-class/img/imgem\ gato\ 2.PNG);
+}
+
+#div-dois {
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(/headshot-class/img/Gato\ 1.0.PNG);
+}
+
+footer {
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    height: 5em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(135deg, #ff96e0 0, #ff8fde 12.5%, #ff86d8 25%, #e77dcf 37.5%, #c772c1 50%, #a867b1 62.5%, #8c5da3 75%, #745595 87.5%, #5f4e89 100%);
+}
+
+/*Aqui, estamos definindo a posição do footer como fixa (fixed), que significa que ele sempre ficará na mesma posição, independentemente de onde a página for rolada. Além disso, estamos definindo a posição do footer como "bottom: 0" e "left: 0", o que fará com que ele fique sempre na parte inferior da página. Também estamos definindo a largura do footer como 100%, para que ele ocupe toda a largura da página, e estamos adicionando um fundo cinza claro, padding (10px) e alinhando o texto ao centro.
+Dessa forma, seu footer ficará sempre no final da página, independentemente do conteúdo da página ou do tamanho da tela do dispositivo.*/
